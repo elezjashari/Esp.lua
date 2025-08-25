@@ -1,4 +1,5 @@
-# Esp.lualocal p=game:GetService("Players")
+# Esp.lua
+local p=game:GetService("Players")
 local lp=p.LocalPlayer
 local function e(c,pl)
     if c:FindFirstChild("ESP_Highlight")then return end
